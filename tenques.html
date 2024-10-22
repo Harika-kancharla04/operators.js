@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <script>
+        let a = 20;
+        let b = 12;
+        console.log(a + b);
+        console.log(a - b);
+        console.log(a * b);
+        console.log(a / b);
+        console.log(a % b);
+        console.log(a > b);
+        console.log(a < b);
+        console.log(a == b);
+        console.log(a !== b);
+        a += 5;
+        console.log(a);
+
+
+        //2nd question
+        let firstName = "Harika";
+        let lastName = "Kancharla";
+        fullName = firstName + " " + lastName
+        age = 21;
+        console.log(fullName);
+        (age > 18) ? console.log(`${firstName} ${lastName} is eligible to vote`) : console.log(`${firstName} ${lastName} is not eligible to vote`);
+        (fullName.length > 10) ? console.log(`${firstName} ${lastName} is longer than 10 characters`) : console.log(`${firstName} ${lastName} is not longer than 10 characters`);
+
+
+        //3rd question
+        num = 23;
+        console.log(num % 3);
+        console.log(num ** 2);
+        (num > 50) ? console.log(`${num} is greater than 50`) : console.log(`${num} is less than 50`);
+        !(num & 1) ? console.log("even") : console.log("odd");
+
+
+        //4th question
+        let one = 34;
+        let two = 21;
+        let three = 5;
+        sum = one + two;
+        console.log(sum);
+        console.log(three > sum);
+        (sum > three) ? console.log(`${three} is less than sum of two numbers`) : console.log(`${three} is greater than sum of two numbers`);
+        console.log(sum > 50 && three < 100);
+
+
+
+        //5th question
+        first_name = "Harika";
+        last_name = "kancharla";
+        ab = 7;
+        full_name = first_name + " " + last_name;
+        console.log(full_name);
+        console.log(typeof ab);
+        ab += 10;
+        console.log(ab);
+
+
+
+        //6th question
+        totalAmount = 10000;
+        newAmount = totalAmount - (10000 * (15 / 100));
+        (totalAmount > 150) ? console.log(newAmount) : console.log("No discount");
+        totalAmount = newAmount;
+        console.log(totalAmount);
+
+
+
+        //7th question
+        str = "Javascript is awesome";
+        s = str.split('').reverse().join('');
+        console.log(s);
+        console.log(s.length > 15);
+        console.log((str.length || s.length) > 20);
+
+
+
+        //8th question
+        x = 20;
+        y = 15;
+        console.log(x & y);
+        console.log(x | y);
+        console.log(x ^ y);
+        console.log(x << 2);
+        console.log(x > (x << 2));
+
+
+        //9th question
+        p_age = 21;
+        p_salary = 50000;
+        p_credit = 756;
+        (p_age >= 21 && p_salary > 30000 || p_credit > 650) ? console.log("approved") : console.log("Denied");
+
+
+        //10th question
+        score1 = 20;
+        score2 = 19;
+        score3 = 20;
+        totalScore = score1 + score2 + score3;
+        (totalScore > 60) ? console.log("passed") : console.log("failed");
+        (totalScore < 60) ? totalScore += 5 : totalScore;
+        (totalScore > 60) ? console.log("passed") : console.log("failed");
+    </script>
+</body>
+
+</html>
