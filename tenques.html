@@ -12,8 +12,8 @@
 
 
     <script>
-        let a = 20;
-        let b = 12;
+        let a = +prompt("Enter first number:");
+        let b = +prompt("Enter second number:");
         console.log(a + b);
         console.log(a - b);
         console.log(a * b);
@@ -28,8 +28,8 @@
 
 
         //2nd question
-        let firstName = "Harika";
-        let lastName = "Kancharla";
+        let firstName = prompt("Enter Firstname:");
+        let lastName = prompt("Enter lastname:");
         fullName = firstName + " " + lastName
         age = 21;
         console.log(fullName);
@@ -38,7 +38,7 @@
 
 
         //3rd question
-        num = 23;
+        num = +prompt("enter num:");
         console.log(num % 3);
         console.log(num ** 2);
         (num > 50) ? console.log(`${num} is greater than 50`) : console.log(`${num} is less than 50`);
@@ -46,9 +46,9 @@
 
 
         //4th question
-        let one = 34;
-        let two = 21;
-        let three = 5;
+        let one = +prompt("enter first num:");
+        let two = +prompt("enter second num:");
+        let three = +prompt("enter third num:");
         sum = one + two;
         console.log(sum);
         console.log(three > sum);
@@ -58,8 +58,8 @@
 
 
         //5th question
-        first_name = "Harika";
-        last_name = "kancharla";
+        first_name = prompt("enter firstname:");
+        last_name = +prompt("enter lastname:");
         ab = 7;
         full_name = first_name + " " + last_name;
         console.log(full_name);
@@ -70,7 +70,7 @@
 
 
         //6th question
-        totalAmount = 10000;
+        totalAmount = +prompt("enter total:");
         newAmount = totalAmount - (10000 * (15 / 100));
         (totalAmount > 150) ? console.log(newAmount) : console.log("No discount");
         totalAmount = newAmount;
@@ -79,7 +79,7 @@
 
 
         //7th question
-        str = "Javascript is awesome";
+        str = prompt("enter string:");
         s = str.split('').reverse().join('');
         console.log(s);
         console.log(s.length > 15);
@@ -88,8 +88,8 @@
 
 
         //8th question
-        x = 20;
-        y = 15;
+        x = +prompt("enter num1:");
+        y = +prompt("enter num2:");
         console.log(x & y);
         console.log(x | y);
         console.log(x ^ y);
@@ -98,16 +98,16 @@
 
 
         //9th question
-        p_age = 21;
-        p_salary = 50000;
-        p_credit = 756;
+        p_age = +prompt("enter age:");
+        p_salary = +prompt("enter salary:");
+        p_credit = +prompt("enter creditscore:");
         (p_age >= 21 && p_salary > 30000 || p_credit > 650) ? console.log("approved") : console.log("Denied");
 
 
         //10th question
-        score1 = 20;
-        score2 = 19;
-        score3 = 20;
+        score1 = +prompt("enter score1:");
+        score2 = +prompt("enter score2:");
+        score3 = +prompt("enter score3:");
         totalScore = score1 + score2 + score3;
         (totalScore > 60) ? console.log("passed") : console.log("failed");
         (totalScore < 60) ? totalScore += 5 : totalScore;
